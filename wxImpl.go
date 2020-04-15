@@ -13,11 +13,11 @@ import (
 
 type wxImpl struct {
 	branches            vecstring.VecStringForWX
-	terminals           rsdic.RSDic
+	terminals           *rsdic.RSDic
 	leadingIDs          fixvec.FixVec
 	leadings            vecstring.VecString
-	leadingIsZeroOrOnes rsdic.RSDic
-	leadingIsOnes       rsdic.RSDic
+	leadingIsZeroOrOnes *rsdic.RSDic
+	leadingIsOnes       *rsdic.RSDic
 	leadingOnes         []byte
 	num                 uint64
 }
@@ -312,10 +312,10 @@ func debugPrintBytes(name string, bytes []byte) {
 func (wx wxImpl) debugPrint() {
 	fmt.Printf("num=%d\n", wx.num)
 	debugPrintVecString("branches", wx.branches)
-	debugPrintRSDic("terminals", wx.terminals)
+	debugPrintRSDic("terminals", *wx.terminals)
 	debugPrintFixVec("leadingIDs", wx.leadingIDs)
 	debugPrintVecString("leadings", wx.leadings)
-	debugPrintRSDic("leadingIsZeroOrOnes", wx.leadingIsZeroOrOnes)
-	debugPrintRSDic("leadingIsOnes", wx.leadingIsOnes)
+	debugPrintRSDic("leadingIsZeroOrOnes", *wx.leadingIsZeroOrOnes)
+	debugPrintRSDic("leadingIsOnes", *wx.leadingIsOnes)
 	debugPrintBytes("leadingOnes", wx.leadingOnes)
 }
