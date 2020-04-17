@@ -1,3 +1,4 @@
+github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 h1:EGx4pi6eqNxGaHF6qqu48+N2wcFQ5qg5FXgOdqsJ5d8=
 github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
 github.com/hillbig/fixvec v0.0.0-20141006112755-14b957c6d055 h1:b3KN4alCWSgCsBx6OMhqB1Hw2oTW859eErSnglNBSsI=
 github.com/hillbig/fixvec v0.0.0-20141006112755-14b957c6d055/go.mod h1:rF3VmmnMngJesuipPbD1FKc6ycwFT0NT+Ng+fWfyk5Y=
