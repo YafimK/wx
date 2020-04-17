@@ -1,4 +1,4 @@
-module github.com/YafimK/wx
+module github.com/YafimK/wx-succ-tree
 
 go 1.14
 
