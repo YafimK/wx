@@ -1,5 +1,10 @@
 wx
 =========
+Modified from the fork to allow better serialization and severall small modifications.
+most dependencies has been included due to the needed changes and since they are pretty old.
+
+
+Much Kudos to original Developer.
 
 wx is a Go library for a succint representation of trie
 

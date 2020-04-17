@@ -2,11 +2,10 @@ package tree
 
 import (
 	"fmt"
+	"github.com/YafimK/wx-succ-tree/pkg/fixvec"
+	"github.com/YafimK/wx-succ-tree/pkg/rsdic"
+	"github.com/YafimK/wx-succ-tree/pkg/vecstring"
 	"math"
-
-	"github.com/hillbig/fixvec"
-	"github.com/hillbig/rsdic"
-	"github.com/hillbig/vecstring"
 
 	"github.com/ugorji/go/codec"
 )
@@ -235,7 +234,7 @@ func (wx wxImpl) MarshalBinary() (out []byte, err error) {
 func (wx *wxImpl) UnmarshalBinary(in []byte) (err error) {
 	var bh codec.MsgpackHandle
 	dec := codec.NewDecoderBytes(in, &bh)
-	err = dec.Decode(&wx.branches)
+	err = dec.Decode(wx.branches)
 	if err != nil {
 		return
 	}
@@ -243,11 +242,11 @@ func (wx *wxImpl) UnmarshalBinary(in []byte) (err error) {
 	if err != nil {
 		return
 	}
-	err = dec.Decode(&wx.leadingIDs)
+	err = dec.Decode(wx.leadingIDs)
 	if err != nil {
 		return
 	}
-	err = dec.Decode(&wx.leadings)
+	err = dec.Decode(wx.leadings)
 	if err != nil {
 		return
 	}

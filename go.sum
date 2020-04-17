@@ -1,13 +1,5 @@
 github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1 h1:EGx4pi6eqNxGaHF6qqu48+N2wcFQ5qg5FXgOdqsJ5d8=
 github.com/gopherjs/gopherjs v0.0.0-20181017120253-0766667cb4d1/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
-github.com/hillbig/fixvec v0.0.0-20141006112755-14b957c6d055 h1:b3KN4alCWSgCsBx6OMhqB1Hw2oTW859eErSnglNBSsI=
-github.com/hillbig/fixvec v0.0.0-20141006112755-14b957c6d055/go.mod h1:rF3VmmnMngJesuipPbD1FKc6ycwFT0NT+Ng+fWfyk5Y=
-github.com/hillbig/partialsum v0.0.0-20141013083113-9a810a114675 h1:saGhMYBiopi5+ZD0CBmS4d0ny8eh8SCME9OAci60dy4=
-github.com/hillbig/partialsum v0.0.0-20141013083113-9a810a114675/go.mod h1:bw4j04hHkG4hYtmZyU1Rtf9GBCUV1GGWmMFZr8zi74Q=
-github.com/hillbig/rsdic v0.0.0-20150805052524-6158e7a2d824 h1:t71y5fcBE2nktZDXhTmPdZXrdFGBFAiHcOTTk0/+1to=
-github.com/hillbig/rsdic v0.0.0-20150805052524-6158e7a2d824/go.mod h1:ivdNV4DsR3UB9xzoIPzw0OipHZf+I7VklGmx0jLkgwo=
-github.com/hillbig/vecstring v0.0.0-20141013083725-51b53e602e9c h1:QadrPcUhskH6LPU/dmTUcgRRLCrWKZJYTmL7Z552fuw=
-github.com/hillbig/vecstring v0.0.0-20141013083725-51b53e602e9c/go.mod h1:4Wsq+nzBiMy30Azk3dTbfAIHiMFAqUYEKA7PlsSAXAM=
 github.com/jtolds/gls v4.20.0+incompatible h1:xdiiI2gbIgH/gLH7ADydsJ1uDOEzR8yvV7C0MuV77Wo=
 github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfVYBRgL+9YlvaHOwJU=
 github.com/smartystreets/assertions v0.0.0-20180927180507-b2de0cb4f26d h1:zE9ykElWQ6/NYmHa3jpm/yHnI4xSofP+UP6SpjHcSeM=
