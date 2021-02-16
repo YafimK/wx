@@ -2,7 +2,7 @@
 package vecstring
 
 import (
-	"github.com/YafimK/wx-succ-tree/pkg/partialsum"
+	"github.com/yafimk/wx-succ-tree/pkg/partialsum"
 	"github.com/ugorji/go/codec"
 )
 

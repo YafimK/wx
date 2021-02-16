@@ -2,10 +2,11 @@ package tree
 
 import (
 	"fmt"
-	"github.com/YafimK/wx-succ-tree/pkg/fixvec"
-	"github.com/YafimK/wx-succ-tree/pkg/rsdic"
-	"github.com/YafimK/wx-succ-tree/pkg/vecstring"
 	"math"
+
+	"github.com/yafimk/wx-succ-tree/pkg/fixvec"
+	"github.com/yafimk/wx-succ-tree/pkg/rsdic"
+	"github.com/yafimk/wx-succ-tree/pkg/vecstring"
 
 	"github.com/ugorji/go/codec"
 )

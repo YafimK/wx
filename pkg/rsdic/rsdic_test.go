@@ -1,9 +1,10 @@
 package rsdic
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"math/rand"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func TestEmptyRSDic(t *testing.T) {

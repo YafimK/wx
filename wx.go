@@ -2,9 +2,9 @@
 package tree
 
 import (
-	"github.com/YafimK/wx-succ-tree/pkg/fixvec"
-	"github.com/YafimK/wx-succ-tree/pkg/rsdic"
-	"github.com/YafimK/wx-succ-tree/pkg/vecstring"
+	"github.com/yafimk/wx-succ-tree/pkg/fixvec"
+	"github.com/yafimk/wx-succ-tree/pkg/rsdic"
+	"github.com/yafimk/wx-succ-tree/pkg/vecstring"
 )
 
 // WX represents a trie containing a set of strings

@@ -1,7 +1,7 @@
 package partialsum
 
 import (
-	"github.com/YafimK/wx-succ-tree/pkg/rsdic"
+	"github.com/yafimk/wx-succ-tree/pkg/rsdic"
 	"github.com/ugorji/go/codec"
 )
 

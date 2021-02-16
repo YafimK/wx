@@ -1,9 +1,10 @@
 package vecstring
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"math/rand"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 const (
